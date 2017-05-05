@@ -1,6 +1,10 @@
+/*
+**Print the message "Hello world!" to the standard output.
+*/
+
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int hello(void)
 {
     printf("Hello World!\n");
     return 0;
